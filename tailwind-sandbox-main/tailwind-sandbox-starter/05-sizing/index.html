@@ -7,28 +7,47 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Sizing</title>
   </head>
-  <body>
+  <body class="mb-16">
     <!-- Width -->
+    <div class="bg-black text-white w-12">Hello</div>
+    <div class="bg-black text-white w-48">Hello</div>
+    <div class="bg-black text-white w-96">Hello</div>
 
     <!-- Percentages -->
+    <div class="bg-green-700 text-white w-1/4 mt-12">Hello</div>
+    <div class="bg-green-700 text-white w-1/3">Hello</div>
+    <div class="bg-green-700 text-white w-1/2">Hello</div>
 
     <!-- Width of the viewport -->
+    <div class="bg-blue-500 text-white w-screen mt-12">Hello</div>
 
     <!-- 100% of container -->
+    <div class="bg-blue-300 text-white w-full mt-12">Hello</div>
 
     <!-- min/max content -->
 
     <!-- Arbitrary width -->
+    <div class="bg-blue-700 text-white w-[50%] mt-12">Hello</div>
 
     <!-- Max Width -->
+    <div class="bg-gray-300 max-w-sm mt-12">Hello</div>
 
     <!-- Height (Most of the same options as widths) -->
+    <div class="flex items-end mt-12">
+      <div class="bg-orange-500 w-20 h-24">Hello</div>
+      <div class="bg-orange-500 w-20 h-32">Hello</div>
+      <div class="bg-orange-500 w-20 h-40">Hello</div>
+      <div class="bg-orange-500 w-20 h-48">Hello</div>
+      <div class="bg-orange-500 w-20 h-52">Hello</div>
+      <div class="bg-orange-500 w-20 h-60">Hello</div>
+    </div>
 
     <!-- Min Height -->
 
     <!-- Max Height -->
 
     <!-- Full screen height -->
+    <div class="bg-blue-300 text-white h-screen mt-16">Hello</div>
   </body>
 </html>
 
