@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,25 +9,78 @@
   </head>
   <body>
     <!-- Hover State Styling -->
+    <button class="bg-black text-white py-3 px-6 rounded-lg m-3 hover:bg-orange-500">
+      Submit
+    </button>
+
 
     <!-- Focus State Styling -->
+    <button class="bg-black text-white py-3 px-6 rounded-lg m-3 focus:bg-green-500">
+      Submit
+    </button>
 
     <!-- Active State Styling -->
+    <button class="bg-black text-white py-3 px-6 rounded-lg m-3 active:bg-yellow-400">
+      Submit
+    </button>
 
     <!-- Styling based on parent state -->
+    <a class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500" href="">
+      <h3 class="group-hover:text-white">Card Title</h3>
+      <p class="group-hover:text-white">This is the card text</p>
+    </a>
 
     <!-- Pseudo Classes -->
+    <ul class="m-5">
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 1</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 2</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 3</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 4</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 5</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">Item 6</li>
+    </ul>
 
     <!-- Appearance -->
     <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+    <select class="m-5" name="" id="">
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+
 
     <!-- Cursor -->
+    <button class="bg-black text-white py-3 px-6 rounded-lg m-3 block cursor-not-allowed">
+      Submit
+    </button>
+
+    <p class="m-5 cursor-pointer">Hover Me</p>
+
+    <p class="m-5 cursor-wait">Hover Me</p>
 
     <!-- Resize -->
 
     <!-- User Select -->
+    <div class="m-5 select-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, nostrum?</div>
+    <div class="m-5 select-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, nostrum?</div>
+    <div class="m-5 select-all">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, nostrum?</div>
 
     <!-- Smooth Scroll Example -->
+    <div class="max-w-md mx-auto ">
+    <a class="block my-6" href="#item">Go to Highlighted Item Smoothly</a>
+    
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias animi aperiam dolorem dolores ea earum enim eos, esse fugit id in iste iusto quas quia reiciendis repellendus veritatis. A corporis ipsa modi odio placeat quis saepe! Adipisci aperiam, atque doloremque error et magni necessitatibus nihil quis saepe! Accusantium architecto consectetur deleniti facilis optio quia sunt? Aliquid at atque autem deserunt, dolorum ea, earum exercitationem expedita itaque natus obcaecati, officiis quibusdam quos vel veritatis voluptas voluptates! Accusamus aut cum cumque eius eveniet explicabo ipsa itaque maiores, necessitatibus odio quaerat quisquam repellendus sapiente temporibus vero. Accusamus aliquid, amet animi corporis debitis deleniti dolor dolore doloremque et, molestiae omnis pariatur reiciendis rem saepe sunt suscipit voluptas. Dolorum eius ipsam itaque iure obcaecati omnis optio sint, vitae voluptatum. Accusantium animi architecto aut blanditiis culpa deleniti dolorem, doloribus eum explicabo fuga inventore ipsam iste itaque magnam magni maiores molestiae numquam perferendis perspiciatis placeat quaerat quibusdam quis ratione rem reprehenderit rerum soluta suscipit tempora tempore totam ut, veritatis vero voluptatum. Ad alias amet cupiditate error nam nisi nobis quisquam, sit tempore. Ad eos est eveniet fuga, magnam minima provident quaerat velit. Aperiam cumque deleniti eum qui voluptate! Cum cupiditate esse id nostrum perspiciatis. Ad assumenda commodi culpa debitis, doloribus eaque ex exercitationem illo laudantium libero maiores minus, natus nesciunt optio pariatur possimus praesentium quibusdam quis reiciendis repellat repellendus reprehenderit sequi sint suscipit tempore ut vel veritatis voluptate voluptates voluptatum. Atque exercitationem fugiat hic in nam repudiandae sapiente voluptate! Aliquam amet delectus est eum illum, libero maiores mollitia nihil odio perspiciatis, possimus quasi quod, quos rerum sequi vero voluptatem? Asperiores eveniet exercitationem fugiat itaque optio quisquam rem! Alias amet culpa dicta eligendi enim est ex exercitationem illum in laudantium maiores minus nesciunt optio possimus provident recusandae, reprehenderit similique sit suscipit ullam voluptas voluptatem, voluptatibus! Aliquid asperiores atque beatae doloremque exercitationem itaque maiores nisi officiis pariatur quaerat quam qui, quidem sit. Accusantium dicta, dolorum, ducimus est et ipsam labore magni natus non, obcaecati possimus reprehenderit repudiandae soluta totam vitae voluptate voluptatem. Delectus eius expedita sequi sit tempora. Ab ad aperiam culpa, enim et hic iste nesciunt non placeat provident quas sed ullam veritatis? Ad dolorum exercitationem fugiat illum in, ipsam minima officia provident quos. Blanditiis doloribus, ducimus ea eligendi, esse eum, excepturi minima modi molestiae non numquam odit porro provident quae quidem soluta tempora vero voluptatum? Error in inventore ipsa iusto maxime modi nisi nostrum porro veniam!
+    </p>
+    <div id="item">
+      <mark>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dicta expedita vero. Ducimus
+        eaque omnis porro repellendus totam. Consectetur consequuntur distinctio eaque, earum hic nisi quas rerum similique vel vero. Harum itaque perspiciatis quae quasi. Animi earum eum ipsa iusto laboriosam optio pariatur perferendis sunt. Cum doloremque eligendi officia totam!
+    </mark>
+    </div>
+    </div>
+
+
+
   </body>
 </html>
 
